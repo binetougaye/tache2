@@ -173,6 +173,7 @@ display: grid;
   }
   .portfolio-section-photos {
     background-color: ;
+    padding: 20px;
   }
   .portfolio-section-photos h2 {
     color: #242424;
@@ -366,15 +367,15 @@ input[type='submit'] {
  }
  #nom{
   padding: 5px;
-  width: 200px;
+  width: 330px;
  }
  #email{
   padding: 5px;
-  width: 200px;
+  width: 330px;
  }
  #message{
   padding: 5px;
-  width: 200px;
+  width: 330px;
  }
  label{
   margin: 0;
@@ -389,6 +390,12 @@ input[type='submit'] {
   margin:0px auto;
   
 }
+.haut{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
 }
   @media screen and  (max-width:773px){
     .grid-paysages{
@@ -397,6 +404,12 @@ input[type='submit'] {
           /* grid-template-rows: 300px 300px 300px; */
           gap: 15px;
         }
+        .haut{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          justify-content: center;
+      }
         .grid-portraits {
             display: grid;
             grid-template-columns: 1fr 1fr ;
@@ -430,6 +443,12 @@ input[type='submit'] {
             /* grid-template-rows: 300px 300px; */
             gap: 15px;
           }
+          .haut{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+        }
     
 }
 @media screen and  (max-width:735px){
@@ -453,10 +472,11 @@ input[type='submit'] {
         margin-bottom: 30px;
        
     }
-    .entete{
+    .haut{
         display: flex;
         flex-direction: column;
         gap: 15px;
         justify-content: center;
     }
+  
 }
